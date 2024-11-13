@@ -2,6 +2,8 @@ import CertificatesCard from "./CertificatesCard"
 import CertificadoDesarrolloweb from '../assets/images/certificates/crtificadoDesarrolloweb.jpg'
 import CertificadoJSYJQ from '../assets/images/certificates/JSYJQ.jpg'
 import CertificadoReactRedux from '../assets/images/certificates/ReactJSyRedux.jpg'
+import CertificadoJavaScriptFlex from '../assets/images/certificates/CertificadoJavaScriptFlex.png'
+
 
 const certificates = [
     {
@@ -21,6 +23,12 @@ const certificates = [
         title: 'ReactJS + Redux',
         tags: ['Udemy'],
         certificateLink: CertificadoReactRedux
+      },
+      {
+        imgSrc: CertificadoJavaScriptFlex,
+        title: 'JavaScript Flex',
+        tags: ['CoderHouse'],
+        certificateLink: CertificadoJavaScriptFlex
       }
 ]
 
