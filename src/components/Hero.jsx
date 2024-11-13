@@ -3,6 +3,7 @@
 import { ButtonPrimary, ButtonOutline } from "./Button"
 import HeroBanner from '../assets/images/hero-banner.png'
 import Avatar from '../assets/images/avatar-1.jpg'
+import CV from '../assets/data/CV - Carlos Couste.pdf'
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
                 </div>
                 <h2 className="headline-1 max-w-[15ch] sm:max-w-20ch lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">Apasionado por la programación y el diseño web</h2>
                 <div className="flex items-center gap-3">
-                    <ButtonPrimary  href="/images/CV - Carlos Couste.pdf" target="_blank" label="Descargar CV" icon="download" />
+                    <ButtonPrimary  href={CV} target="_blank" label="Descargar CV" icon="download" />
 
                     <ButtonOutline href="#about"label="Desplácese hacia abajo" icon="arrow_downward"/>
                 </div>
