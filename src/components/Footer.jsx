@@ -1,3 +1,5 @@
+import logo from '../assets/images/logo.svg'
+
 const sitemap = [
     {
       label: 'Inicio',
@@ -67,7 +69,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex items-center justify-between pt-10 mb-8">
-                <a href="/" className="logo" ><img src="/images/logo.svg" width={40} height={40} alt="logo" /></a>
+                <a href="/" className="logo" ><img src={logo} width={40} height={40} alt="logo" /></a>
                 <p className="text-zinc-500 text-sm"> &copy; 2024 <span className="text-zinc-200">Carlos Cousté</span></p>   
             </div>
         </div>

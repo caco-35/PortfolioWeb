@@ -1,27 +1,31 @@
 import ProjectCard from "./ProjectCard";
+import SnakeGame from "../assets/images/projects/Snake.png"
+import Cronometro from "../assets/images/projects/Cronometro.png"
+import FisioWeb from "../assets/images/projects/FisioWeb.png"
+import eCommerceJS from "../assets/images/projects/ecommerce.png"
 
 
 const works = [
     {
-      imgSrc: '/images/Snake.png',
+      imgSrc: SnakeGame,
       title: 'Game Snake',
       tags: ['JavaScript', 'HTML', 'CSS'],
       projectLink: 'https://github.com/caco-35/Snake.git'
     },
     {
-      imgSrc: '/images/Cronometro.png',
+      imgSrc: Cronometro,
       title: 'Cronometro',
       tags: ['JavaScript', 'HTML', 'CSS'],
       projectLink: 'https://github.com/caco-35/Cronometro.git'
     },
     {
-      imgSrc: '/images/FisioWeb.png',
+      imgSrc: FisioWeb,
       title: 'Pagina Web Fisioterapia',
       tags: ['CSS', 'JavaScript', 'HTML', 'SASS'],
       projectLink: 'https://github.com/caco-35/proyectofisio.git'
     },
     {
-      imgSrc: '/images/ecommerce.png',
+      imgSrc: eCommerceJS,
       title: 'eCommerce website',
       tags: ['CSS', 'JavaScript', 'HTML'],
       projectLink: 'https://github.com/caco-35/primerentregajs.git'
