@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../assets/images/logo.svg'
 
 /**Components */
 import Navbar from './Navbar';
@@ -12,7 +13,7 @@ const Header = () => {
             <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid-cols-[1fr,3fr,1fr]">
                 <h1>
                     <a href="/" className='logo'>
-                        <img src="/images/logo.svg" width={40} height={40} alt="Carlos Cousté" />
+                        <img src={logo} width={40} height={40} alt="Carlos Cousté" />
                     </a>
                 </h1>
 

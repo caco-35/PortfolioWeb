@@ -1,48 +1,59 @@
 import SkillCard from "./SkillCard";
+import bootstrap from "../assets/images/bootstrap.svg"
+import css3 from "../assets/images/css3.svg"
+import JavaScript from "../assets/images/javascript.svg"
+import nodeJS from "../assets/images/nodejs.svg"
+import ReactJS from "../assets/images/react.svg"
+import TailwindCSS from "../assets/images/tailwindcss.svg"
+import html5 from "../assets/images/html5.svg"
+import Jira from "../assets/images/jira.svg"
+import Sass from "../assets/images/sass.svg"
+
+
 
 const skillItem = [
     {
-      imgSrc: '/images/bootstrap.svg',
+      imgSrc: bootstrap,
       label: 'Bootstrap',
       desc: 'Design tool'
     },
     {
-      imgSrc: '/images/css3.svg',
+      imgSrc: css3,
       label: 'CSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/javascript.svg',
+      imgSrc: JavaScript,
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
-      imgSrc: '/images/nodejs.svg',
+      imgSrc: nodeJS,
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
-      imgSrc: '/images/react.svg',
+      imgSrc: ReactJS,
       label: 'React',
       desc: 'Framework'
     },
     {
-      imgSrc: '/images/tailwindcss.svg',
+      imgSrc: TailwindCSS,
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/html5.svg',
+      imgSrc: html5,
       label: 'HTML5',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/jira.svg',
+      imgSrc: Jira,
       label: 'Jira',
       desc: 'User Interface'
     },
     {
-      imgSrc: '/images/sass.svg',
+      imgSrc: Sass,
       label: 'Sass',
       desc: 'User Interface'
     }
