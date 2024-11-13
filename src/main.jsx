@@ -1,6 +1,11 @@
+/**Node modules */
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
+/**CCS Link */
 import './index.css'
+import 'lenis/dist/lenis.css'
+/**Componets */
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
